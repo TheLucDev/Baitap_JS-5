@@ -10,8 +10,33 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container">
-
+    <div class="container pt-5">
+      <h1>Tuyển sinh</h1>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Điểm chuẩn</span>
+        </div>
+        <input type="text" id="txtDiemChuan" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Điểm 3 môn</span>
+        </div>
+        <input type="text" id="txtDiem3Mon" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Khu vực</span>
+        </div>
+        <input type="text" id="txtDiemKV" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Đối tượng</span>
+        </div>
+        <input type="text" id="txtDiemDT" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button class="btn btn-success" onclick="tongDiem()">Kết quả</button>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
