@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Bai tap 1</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <div class="container pt-5">
+      <h1>Bài 1: Tuyển sinh</h1>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Điểm chuẩn</span>
+        </div>
+        <input type="text" id="txtDiemChuan" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Điểm 3 môn</span>
+        </div>
+        <input type="text" id="txtDiem3Mon" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Khu vực</span>
+        </div>
+        <input type="text" id="txtDiemKV" placeholder="vd: A,B,C,X" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Đối tượng</span>
+        </div>
+        <input type="text" id="txtDiemDT" placeholder="vd: 1,2,3,X" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button class="btn btn-success" onclick="tongDiem()">Kết quả</button>
+    </div>
+    <!-- Bài 2 -->
+    <div class="container pt-5">
+      <h1>Bài 2: Tính tiền điện</h1>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Họ và Tên</span>
+        </div>
+        <input type="text" id="txtName" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">số Kw</span>
+        </div>
+        <input type="number" id="txtNumber" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button class="btn btn-success" onclick="tinhTien()">Tính</button>
+    </div>
+    <!-- Bài 3 -->
+    <div class="container pt-4">
+      <h2>Bài 3: Tính thuế thu nhập cá nhân</h2>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Họ và Tên</span>
+        </div>
+        <input type="text" id="txtName3" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Tổng thu nhập (tr/năm)</span>
+        </div>
+        <input type="text" id="txtNumber3" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Số người phụ thuộc</span>
+        </div>
+        <input type="text" id="txtPeople3" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button class="btn btn-success" onclick="tinhThue()">Tính thuế</button>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./Bai1.js"></script>
+    <script src="./Bai2.js"></script>
+    <script src="./Bai3.js"></script>
+  </body>
+</html>
