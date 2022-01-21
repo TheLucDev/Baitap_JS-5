@@ -79,6 +79,39 @@
       </div>
       <button class="btn btn-success" onclick="tinhThue()">Tính thuế</button>
     </div>
+    <!-- Bài 4 -->
+    <div class="container pt-4">
+      <h1>Bài 4: Tính tiền cáp</h1>
+      <div class="Customer d-flex">
+        <div class="input-group mb-3 w-50 pr-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="inputGroup-sizing-default">Mã khách hàng</span>
+          </div>
+          <input type="text" id="txtCode" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+
+        <select id="txtType" class="custom-select w-50 mb-3" onchange="hienThi()" >
+          <option selected>Loại khách hàng</option>
+          <option  value="1">Nhà dân</option>
+          <option value="2">Doanh nghiệp</option>
+        </select>
+      </div>
+
+      <div id="connect" class="input-group mb-3 w-50">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default" >Số kết nối</span>
+          <input type="number" id="txtConnectNumber" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+        </div>
+      </div>
+
+      <div class="input-group mb-3 w-50">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroup-sizing-default">Kênh cao cấp</span>
+        </div>
+        <input type="number" id="txtVip" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+      </div>
+      <button class="btn btn-success" onclick="tinhTienCap()">Tính tiền</button>
+    </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -87,5 +120,6 @@
     <script src="./Bai1.js"></script>
     <script src="./Bai2.js"></script>
     <script src="./Bai3.js"></script>
+    <script src="./Bai4.js"></script>
   </body>
 </html>
